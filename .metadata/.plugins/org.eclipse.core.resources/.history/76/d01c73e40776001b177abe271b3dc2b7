@@ -1,0 +1,17 @@
+package decisao;
+import javax.swing.JOptionPane;
+public class DecisaoEncadeadaDesafio {
+
+	public static void main(String[] args) {
+		String nome, cat;
+		char cat1;
+		int quant;
+		float vu;
+		
+		nome=JOptionPane.showInputDialog("Digite nome do produto");
+		cat =JOptionPane.showInputDialog("a- Alimenticio\nb-Eletronico");
+		cat1=cat.charAt(0);
+
+	}
+
+}

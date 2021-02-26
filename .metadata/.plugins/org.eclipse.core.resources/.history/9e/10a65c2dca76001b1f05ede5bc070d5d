@@ -1,0 +1,19 @@
+package repetição;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		byte dia, mes;
+		float ano;
+		do {
+			mes=Byte.parseByte(JOptionPane.showInputDialog("digite mes"));
+			if(mes<=0||mes>=12) {
+				JOptionPane.showMessageDialog(null,"Mes incorreto");
+			}
+		}while(mes==0||mes>12);
+
+	}
+
+}

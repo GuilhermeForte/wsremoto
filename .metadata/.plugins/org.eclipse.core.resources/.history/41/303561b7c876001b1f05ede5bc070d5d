@@ -1,0 +1,28 @@
+package repetição;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		byte dia, mes;
+		float ano;
+		do {
+			mes=Byte.parseByte(JOptionPane.showInputDialog("digite mes"));
+			if(mes<=0&&mes>=12) {
+				JOptionPane.showMessageDialog(null,"Mes incorreto");
+			}
+			if(mes==2) {
+				do {
+					dia=Byte.parseByte(JOptionPane.showInputDialog("Digite dia"));
+				}while(dia>0||dia<30);
+			}else {
+				do {
+					dia= Byte.parseByte(JOptionPane.showInputDialog("Digite dia"));
+				}while(dia>0||dia<32);
+			}
+		}while(mes==0||mes>12);
+
+	}
+
+}

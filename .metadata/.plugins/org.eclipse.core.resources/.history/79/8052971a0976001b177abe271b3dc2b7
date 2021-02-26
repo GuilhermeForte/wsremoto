@@ -1,0 +1,29 @@
+package decisao;
+import javax.swing.JOptionPane;
+public class DecisaoEncadeadaDesafio {
+
+	public static void main(String[] args) {
+		String nome, cat;
+		char cat1;
+		int quant;
+		double vu, imp;
+		
+		
+		nome=JOptionPane.showInputDialog("Digite nome do produto");
+		vu=Double.parseDouble(JOptionPane.showInputDialog("Digite nome valor do produto"));
+		quant=Integer.parseInt(JOptionPane.showInputDialog("Digite quantidade"));
+		cat=JOptionPane.showInputDialog("a- Alimenticio\nb- Eletronico");
+		cat1=cat.charAt(0);
+		switch(cat1){
+		case 'a':
+			if(quant>100) {
+				imp=vu*0.4;
+			}else if(quant<50) {
+				imp=vu*0.5;
+			}else {
+				imp=vu*0.45;
+			}
+		}JOptionPane.showMessageDialog(null,"valor unitario: R$ "+vu+"\nImposto: R$"+imp);
+
+	}
+}

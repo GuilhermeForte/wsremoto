@@ -1,0 +1,12 @@
+package br.com.caicai.main;
+
+import br.com.caicai.model.Elevador;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Elevador E1=new Elevador();
+
+	}
+
+}

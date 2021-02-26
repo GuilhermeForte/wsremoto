@@ -1,0 +1,26 @@
+package br.com.ecommerce.main;
+
+import javax.swing.JOptionPane;
+
+import br.com.ecommerce.model.Produto;
+
+public class main {
+
+	public static void main(String[] args) {
+		Produto p1=new Produto();
+		p1.setAll(01,
+				  Integer.parseInt(JOptionPane.showInputDialog("Digite Quantidade")),
+				  JOptionPane.showInputDialog("Entre descrição"),
+				  Float.parseFloat(JOptionPane.showInputDialog("Digite valor da compra")),
+				  Float.parseFloat(JOptionPane.showInputDialog("Digite preço de venda")));
+		System.out.println(p1.getResumo());
+		System.out.println("Desconto: "+p1.getDesconto());
+		p1.ajustarValores((float)0.15);
+		System.out.println("\nvalores ajustados");
+		System.out.println(p1.getResumo());
+		System.out.println("toatl compra: "+p1.getTotalCompra());
+		System.out.println("Situação do estoque: "+p1.verificarEstoque());
+
+	}
+
+}

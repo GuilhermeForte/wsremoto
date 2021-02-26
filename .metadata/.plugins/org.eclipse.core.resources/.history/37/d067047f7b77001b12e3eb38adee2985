@@ -1,0 +1,16 @@
+package br.com.concessionaria.modelo;
+
+public class Carro {
+	private float valor;
+	private String cor;
+	private boolean status;
+	private short velociadadeAtual;
+	private String modelo;
+	
+	public void setCor(String param) {
+		cor=param;
+	}
+	public String getCor() {
+		return cor;
+	}
+}
