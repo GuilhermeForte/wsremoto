@@ -4,9 +4,9 @@ public class Turma {
 	private int numero;
 	private String periodo;
 	private Curso curso;
-	private Professor professor;
-	private Aluno aluno;
-	public Turma(int numero, String periodo, Curso curso, Professor professor, Aluno aluno) {
+	private Pessoa professor;
+	private Pessoa aluno;
+	public Turma(int numero, String periodo, Curso curso, Pessoa professor, Pessoa aluno) {
 		super();
 		this.numero = numero;
 		this.periodo = periodo;
@@ -36,19 +36,19 @@ public class Turma {
 	public void setCurso(Curso curso) {
 		this.curso = curso;
 	}
-	public Professor getProfessor() {
+	public Pessoa getProfessr() {
 		return professor;
 	}
-	public void setProfessor(Professor professor) {
+	public void setProfessor(Pessoa professor) {
 		this.professor = professor;
 	}
-	public Aluno getAluno() {
+	public Pessoa getAluno() {
 		return aluno;
 	}
-	public void setAluno(Aluno aluno) {
+	public void setAluno(Pessoa aluno) {
 		this.aluno = aluno;
 	}
-	public void setAll(int numero, String periodo, Curso curso, Professor professor, Aluno aluno) {
+	public void setAll(int numero, String periodo, Curso curso, Pessoa professor, Pessoa aluno) {
 		this.numero = numero;
 		this.periodo = periodo;
 		this.curso = curso;

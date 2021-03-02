@@ -1,6 +1,8 @@
 package br.com.universidadeXPTO.model;
 
-public class Professor extends Pessoa {
+import util.PadraoPessoas;
+
+public class Professor extends Pessoa implements PadraoPessoas {
 	private String formacao, area, subarea;
 
 	public Professor(String nome, String email, String formacao, String area, String subarea) {
@@ -49,6 +51,12 @@ public class Professor extends Pessoa {
 	@Override
 	public String toString() {
 		return "Professor [formacao=" + formacao + ", area=" + area + ", subarea=" + subarea +", "+super.toString()+"]";
+	}
+
+	@Override
+	public String getResumo() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 	

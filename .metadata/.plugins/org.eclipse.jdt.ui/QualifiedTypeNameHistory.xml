@@ -3,6 +3,15 @@
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="br.com.caicai.model.Elevador"/>
 <fullyQualifiedTypeName name="br.com.ecommerce.model.Produto"/>
-<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="br.com.ecommerce.model.Cliente"/>
+<fullyQualifiedTypeName name="br.com.ecommerce.model.Venda"/>
+<fullyQualifiedTypeName name="br.com.ecommerce.model.Pagamento"/>
+<fullyQualifiedTypeName name="br.com.ecommerce.model.CD"/>
+<fullyQualifiedTypeName name="br.com.ecommerce.model.Livro"/>
+<fullyQualifiedTypeName name="br.com.universidadeXPTO.model.Turma"/>
+<fullyQualifiedTypeName name="util.Magica"/>
+<fullyQualifiedTypeName name="br.com.universidadeXPTO.model.Curso"/>
+<fullyQualifiedTypeName name="br.com.universidadeXPTO.model.Professor"/>
+<fullyQualifiedTypeName name="br.com.universidadeXPTO.model.Aluno"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 </qualifiedTypeNameHistroy>

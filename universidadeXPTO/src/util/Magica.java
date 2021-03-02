@@ -21,8 +21,8 @@ public class Magica {
 	}
 	
 	public static boolean bool(String msg, String titulo) {
-		JOptionPane.showConfirmDialog(null,msg, titulo,JOptionPane.YES_NO_OPTION);
-		if(true) {
+		int n=JOptionPane.showConfirmDialog(null,msg, titulo,JOptionPane.YES_NO_OPTION);
+		if(n==0) {
 			return true;
 		}else
 			return false;
